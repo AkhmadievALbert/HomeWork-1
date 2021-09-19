@@ -13,9 +13,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+  
     private func task() {
         print("Task")
+    }
+
+    private func task1() {
+        print(printingTextForTasks(number: 1))
+    }
+    
+    private func printingTextForTasks(number: Int) -> String {
+        "Task - \(number)"
     }
 }
 
