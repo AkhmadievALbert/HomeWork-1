@@ -15,7 +15,12 @@ class ViewController: UIViewController {
     }
 
     private func task2() {
+        beforeTask2()
         print("Task - 2")
+    }
+    
+    private func beforeTask2() {
+        print("Before task - 2")
     }
 }
 
