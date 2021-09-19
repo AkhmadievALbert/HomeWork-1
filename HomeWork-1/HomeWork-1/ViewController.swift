@@ -13,6 +13,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+  
+    private func task() {
+        print("Task")
+        task1()
+        task2()
+    }
+    
+    private func task2() {
+        beforeTask2()
+        print("Task - 2")
+    }
+    
+    private func beforeTask2() {
+        print("Before task - 2")
+    }
 
     private func task3() {
         print("Task - 3")
