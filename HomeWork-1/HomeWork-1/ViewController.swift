@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    private func task2() {
+        print("Task - 2")
+    }
 }
 
