@@ -17,5 +17,9 @@ class ViewController: UIViewController {
     private func task() {
         print("Task")
     }
+    
+    private func task2() {
+        print("Task - 2")
+    }
 }
 
